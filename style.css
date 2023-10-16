@@ -1,0 +1,62 @@
+
+:root {
+    --ts-dur: 0.5s;
+}
+
+* {
+    user-select: none;
+}
+
+body,html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 12px;
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .sched {
+    margin-left: 50px;
+    margin-right: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+} */
+
+table {
+    margin: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+td {
+    text-transform: uppercase;
+}
+
+img {
+    height: 30px;
+}
+
+body, button {
+    transition: all var(--ts-dur);
+}
+
+.btn {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
